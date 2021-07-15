@@ -27,60 +27,100 @@
 
 body{
     max-width: 1600px;
-    border: 1px solid rgb(24, 24, 24);
     margin: 0 auto;
 }
 
-header{
-    background-image: url('img/start.jpg');
+.container{
+    max-width: 1600px;
+    height: 770px;
+    background: url('/img/start.jpg');
+    
 }
 
 .header {
     
-
     &__header {
-        
-        margin-top:45px;
         display: flex;
         font-family: 'montserrat';
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.025em;
         color: #ffffff;
-        justify-content: space-between;
+        justify-content: space-around;
+        background-image: url('img/start.jpg');
+        position: relative;
     }
 
     &__logo {
-        padding: 0 0 0 230px;
-        
+        padding: 45px 0 0 0;
+    }
+
+    &__logo a{  
+        color:#fff;
     }
 
     &__menu{
-        
+        margin:45px 0 264px 0;
     }
 
     &__menu ul{
         display: flex;
         
     }
-    &__menu ul li{        
+    &__menu ul li{
         padding: 0 15px;
     }
 
-    &__menu ul li:first-child{        
-        margin: 0 0 0 100px;
+    &__menu ul li a{
+        color:#fff;
     }
 
     &__burger {
+        display: none;
+    }
+
+    .header__center-block{
+        width: 100%;
+        height: 100%;
+        
+        
     }
 
     &__title {
+        font-family: 'Montserrat';
+        font-size: 48px;
+        line-height: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 30px;
     }
 
     &__subtitle {
+        font-family: 'RobotoSlab';
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: none;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 40px;
     }
 
     &__button {
+        width: 180px;
+        height: 50px;
+        border: 2px solid #ffffff;
+        border-radius: 2px;
+        cursor: pointer;
+        margin: 0 auto;
+        padding: 10px 0 0 23px;
+    }
+
+    &__button a{
+        color: #fff;
+        font-size: 20px;
+        text-transform: uppercase;
     }
 }
 .content {
