@@ -95,6 +95,7 @@ body {
   font-family: 'montserrat';
   font-size: 14px;
   line-height: 24px;
+  font-weight: 700;
   letter-spacing: 0.025em;
   color: #ffffff;
   -ms-flex-pack: distribute;
@@ -103,7 +104,8 @@ body {
   position: relative; }
 
 .header__logo {
-  padding: 45px 0 0 0; }
+  padding: 45px 0 0 0;
+  font-size: 24px; }
 
 .header__logo a {
   color: #fff; }
@@ -162,6 +164,67 @@ body {
   font-size: 20px;
   text-transform: uppercase; }
 
+.services__columns {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (21.5%)[3];
+  grid-template-columns: repeat(3, 21.5%);
+  gap: 45px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.services__column-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid #dddddd; }
+
+.services__column-logo-red {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid #dddddd;
+  background-color: #c0301c; }
+
+.services__column-title {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #555555;
+  margin: 29px 0 25px 0;
+  text-align: center; }
+
+.services__column-text {
+  font-family: 'RobotoSlab';
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #555555;
+  text-align: center; }
+
 .title-block {
   text-align: center;
   margin: 100px 0 70px 0; }
@@ -169,6 +232,7 @@ body {
     font-family: 'Montserrat';
     font-size: 20px;
     line-height: 24px;
+    font-weight: 700;
     text-transform: uppercase;
     color: #555555;
     margin-bottom: 25px; }

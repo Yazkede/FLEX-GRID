@@ -44,6 +44,7 @@ body{
         font-family: 'montserrat';
         font-size: 14px;
         line-height: 24px;
+        font-weight: 700;
         letter-spacing: 0.025em;
         color: #ffffff;
         justify-content: space-around;
@@ -54,6 +55,7 @@ body{
 
     &__logo {
         padding: 45px 0 0 0;
+        font-size: 24px;
     }
 
     &__logo a{  
@@ -130,27 +132,67 @@ body{
     }
 
     &__columns {
+        display: grid;
+        grid-template-columns: repeat(3, 21.5%);
+        gap: 45px;
+        justify-content: center;
     }
 
     &__column {
     }
 
     &__column-logo {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 2px solid #dddddd;
+    }
+
+    &__column-logo-red {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 2px solid #dddddd;
+        background-color: #c0301c;
     }
 
     &__column-title {
+        font-family: 'Montserrat';
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #555555;
+        margin: 29px 0 25px 0;
+        text-align: center;
     }
 
     &__column-text {
+        font-family: 'RobotoSlab';
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #555555;
+        text-align: center;
     }
 }
 .title-block {
     text-align: center;
     margin: 100px 0 70px 0;
+
     &__title {
         font-family: 'Montserrat';
         font-size: 20px;
         line-height: 24px;
+        font-weight: 700;
         text-transform: uppercase;
         color: #555555;
         margin-bottom: 25px;
