@@ -100,7 +100,6 @@ body {
   color: #ffffff;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  background-image: url("img/start.jpg");
   position: relative; }
 
 .header__logo {
