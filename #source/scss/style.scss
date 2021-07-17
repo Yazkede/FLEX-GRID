@@ -1,5 +1,7 @@
 // Файл обнуляющих стилей
 @import "nullstyle.scss";
+// Дополнительные файлы стилей
+@import "pictures-items.scss";
 
 //шрифты====================================================================
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
@@ -344,43 +346,6 @@ body{
         justify-content: center;
         gap: 30px;
         padding-bottom: 100px; 
-    }
-
-    &__item{
-        position: relative;
-        z-index: 1;
-    }
-
-    &__item a{
-        display: none;
-    }
-
-    &__item:hover{
-        a {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0 auto;
-            position: relative;
-            z-index: 2;
-            top: -150px;
-            width: 100px;
-            height: 38px;
-            border: 1px solid #ffffff;
-            background-color: #ffffff;
-            cursor: pointer;
-            font-family: 'RobotoSlab';
-            font-size: 14px;
-            line-height: 24px;
-            font-weight: 400;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: #c0301c;
-        }
-    }
-
-    &__item:hover{
-        background: linear-gradient(rgba(192, 48, 28, 0.6));
     }
 
     &__wide {

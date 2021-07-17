@@ -58,6 +58,357 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit; }
 
+.latestworks__item1 {
+  background: url("../img/LW1.png") 0 0/cover no-repeat;
+  width: 360px;
+  height: 320px; }
+
+.latestworks__item1 a {
+  display: none; }
+
+.latestworks__item1:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(192, 48, 28, 0.6))), url("../img/LW1.png") 0 0/cover no-repeat;
+  background: -webkit-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW1.png") 0 0/cover no-repeat;
+  background: -o-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW1.png") 0 0/cover no-repeat;
+  background: linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW1.png") 0 0/cover no-repeat; }
+  .latestworks__item1:hover a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    top: 170px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    width: 100px;
+    height: 38px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-family: 'RobotoSlab';
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #c0301c; }
+
+.latestworks__item2 {
+  background: url("../img/LW2.png") 0 0/cover no-repeat;
+  width: 360px;
+  height: 320px; }
+
+.latestworks__item2 a {
+  display: none; }
+
+.latestworks__item2:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(192, 48, 28, 0.6))), url("../img/LW2.png") 0 0/cover no-repeat;
+  background: -webkit-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW2.png") 0 0/cover no-repeat;
+  background: -o-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW2.png") 0 0/cover no-repeat;
+  background: linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW2.png") 0 0/cover no-repeat; }
+  .latestworks__item2:hover a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    top: 170px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    width: 100px;
+    height: 38px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-family: 'RobotoSlab';
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #c0301c; }
+
+.latestworks__item3 {
+  background: url("../img/LW3.png") 0 0/cover no-repeat;
+  width: 360px;
+  height: 320px; }
+
+.latestworks__item3 a {
+  display: none; }
+
+.latestworks__item3:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(192, 48, 28, 0.6))), url("../img/LW3.png") 0 0/cover no-repeat;
+  background: -webkit-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW3.png") 0 0/cover no-repeat;
+  background: -o-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW3.png") 0 0/cover no-repeat;
+  background: linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW3.png") 0 0/cover no-repeat; }
+  .latestworks__item3:hover a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    top: 170px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    width: 100px;
+    height: 38px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-family: 'RobotoSlab';
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #c0301c; }
+
+.latestworks__item4 {
+  background: url("../img/LW4.png") 0 0/cover no-repeat;
+  width: 360px;
+  height: 320px; }
+
+.latestworks__item4 a {
+  display: none; }
+
+.latestworks__item4:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(192, 48, 28, 0.6))), url("../img/LW4.png") 0 0/cover no-repeat;
+  background: -webkit-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW4.png") 0 0/cover no-repeat;
+  background: -o-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW4.png") 0 0/cover no-repeat;
+  background: linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW4.png") 0 0/cover no-repeat; }
+  .latestworks__item4:hover a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    top: 170px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    width: 100px;
+    height: 38px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-family: 'RobotoSlab';
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #c0301c; }
+
+.latestworks__item5 {
+  background: url("../img/LW5.png") 0 0/cover no-repeat;
+  width: 360px;
+  height: 320px; }
+
+.latestworks__item5 a {
+  display: none; }
+
+.latestworks__item5:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(192, 48, 28, 0.6))), url("../img/LW5.png") 0 0/cover no-repeat;
+  background: -webkit-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW5.png") 0 0/cover no-repeat;
+  background: -o-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW5.png") 0 0/cover no-repeat;
+  background: linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW5.png") 0 0/cover no-repeat; }
+  .latestworks__item5:hover a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    top: 170px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    width: 100px;
+    height: 38px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-family: 'RobotoSlab';
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #c0301c; }
+
+.latestworks__item6 {
+  background: url("../img/LW6.png") 0 0/cover no-repeat;
+  width: 360px;
+  height: 320px; }
+
+.latestworks__item6 a {
+  display: none; }
+
+.latestworks__item6:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(192, 48, 28, 0.6))), url("../img/LW6.png") 0 0/cover no-repeat;
+  background: -webkit-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW6.png") 0 0/cover no-repeat;
+  background: -o-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW6.png") 0 0/cover no-repeat;
+  background: linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW6.png") 0 0/cover no-repeat; }
+  .latestworks__item6:hover a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    top: 170px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    width: 100px;
+    height: 38px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-family: 'RobotoSlab';
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #c0301c; }
+
+.latestworks__item7 {
+  background: url("../img/LW7.png") 0 0/cover no-repeat;
+  width: 360px;
+  height: 320px; }
+
+.latestworks__item7 a {
+  display: none; }
+
+.latestworks__item7:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(192, 48, 28, 0.6))), url("../img/LW7.png") 0 0/cover no-repeat;
+  background: -webkit-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW7.png") 0 0/cover no-repeat;
+  background: -o-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW7.png") 0 0/cover no-repeat;
+  background: linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW7.png") 0 0/cover no-repeat; }
+  .latestworks__item7:hover a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    top: 170px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    width: 100px;
+    height: 38px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-family: 'RobotoSlab';
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #c0301c; }
+
+.latestworks__item8 {
+  background: url("../img/LW8.png") 0 0/cover no-repeat;
+  width: 360px;
+  height: 320px; }
+
+.latestworks__item8 a {
+  display: none; }
+
+.latestworks__item8:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(192, 48, 28, 0.6))), url("../img/LW8.png") 0 0/cover no-repeat;
+  background: -webkit-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW8.png") 0 0/cover no-repeat;
+  background: -o-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW8.png") 0 0/cover no-repeat;
+  background: linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW8.png") 0 0/cover no-repeat; }
+  .latestworks__item8:hover a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    top: 170px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    width: 100px;
+    height: 38px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-family: 'RobotoSlab';
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #c0301c; }
+
+.latestworks__item9 {
+  background: url("../img/LW9.png") 0 0/cover no-repeat;
+  width: 360px;
+  height: 320px; }
+
+.latestworks__item9 a {
+  display: none; }
+
+.latestworks__item9:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(192, 48, 28, 0.6))), url("../img/LW9.png") 0 0/cover no-repeat;
+  background: -webkit-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW9.png") 0 0/cover no-repeat;
+  background: -o-linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW9.png") 0 0/cover no-repeat;
+  background: linear-gradient(rgba(192, 48, 28, 0.6)), url("../img/LW9.png") 0 0/cover no-repeat; }
+  .latestworks__item9:hover a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    top: 170px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    width: 100px;
+    height: 38px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-family: 'RobotoSlab';
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #c0301c; }
+
 @font-face {
   font-family: 'RobotoSlab';
   src: url("../fonts/RobotoSlab-Regular.eot");
@@ -352,46 +703,6 @@ body {
   justify-content: center;
   gap: 30px;
   padding-bottom: 100px; }
-
-.latestworks__item {
-  position: relative;
-  z-index: 1; }
-
-.latestworks__item a {
-  display: none; }
-
-.latestworks__item:hover a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin: 0 auto;
-  position: relative;
-  z-index: 2;
-  top: -150px;
-  width: 100px;
-  height: 38px;
-  border: 1px solid #ffffff;
-  background-color: #ffffff;
-  cursor: pointer;
-  font-family: 'RobotoSlab';
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: #c0301c; }
-
-.latestworks__item:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(192, 48, 28, 0.6)));
-  background: -webkit-linear-gradient(rgba(192, 48, 28, 0.6));
-  background: -o-linear-gradient(rgba(192, 48, 28, 0.6));
-  background: linear-gradient(rgba(192, 48, 28, 0.6)); }
 
 .latestworks__wide {
   background: url("../img/LW_wide.png") 50%/cover no-repeat;
