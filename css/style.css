@@ -62,21 +62,21 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'RobotoSlab';
   src: url("../fonts/RobotoSlab-Regular.eot");
   src: local("☺"), url("../fonts/RobotoSlab-Regular.woff") format("woff"), url("../fonts/RobotoSlab-Regular.ttf") format("truetype"), url("../fonts/RobotoSlab-Regular.svg") format("svg");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: 'RobotoSlab';
   src: url("../fonts/RobotoSlab-Bold.eot");
   src: local("☺"), url("fonts/RobotoSlab-Bold.woff") format("woff"), url("../fonts/RobotoSlab-Bold.ttf") format("truetype"), url("../fonts/RobotoSlab-Bold.svg") format("svg");
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: 'RobotoSlab';
   src: url("../fonts/RobotoSlab-LightItalic.eot");
   src: local("☺"), url("../fonts/RobotoSlab-LightItalic.woff") format("woff"), url("../fonts/RobotoSlab-LightItalic.ttf") format("truetype"), url("../fonts/RobotoSlab-LightItalic.svg") format("svg");
-  font-weight: italic;
+  font-weight: 300;
   font-style: normal; }
 
 body {
@@ -128,7 +128,8 @@ body {
 
 .header .header__center-block {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  margin-bottom: 100px; }
 
 .header__title {
   font-family: 'Montserrat';
@@ -245,3 +246,139 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #555555; }
+
+.aboutus {
+  height: 852px;
+  background-color: #f8f8f8; }
+  .aboutus__about {
+    padding-top: 99px; }
+  .aboutus__content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[4];
+    grid-template-columns: repeat(4, auto);
+    -ms-grid-rows: 110px 250px;
+    grid-template-rows: 110px 250px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 32px; }
+  .aboutus__text1 {
+    max-width: 553px;
+    font-family: 'RobotoSlab';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #555555;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 2;
+    grid-column-end: 3; }
+  .aboutus__text2 {
+    max-width: 553px;
+    font-family: 'RobotoSlab';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #555555;
+    -ms-grid-column: 3;
+    grid-column-start: 3;
+    -ms-grid-column-span: 2;
+    grid-column-end: 5; }
+  .aboutus__pic1 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2; }
+  .aboutus__name {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #555555;
+    text-align: center;
+    margin: 20px 0 15px 0; }
+  .aboutus__work {
+    font-family: 'RobotoSlab';
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #555555;
+    text-align: center;
+    margin-bottom: 99px; }
+  .aboutus__pic2 {
+    -ms-grid-column: 2;
+    grid-column-start: 2;
+    -ms-grid-column-span: 1;
+    grid-column-end: 3; }
+  .aboutus__pic3 {
+    -ms-grid-column: 3;
+    grid-column-start: 3;
+    -ms-grid-column-span: 1;
+    grid-column-end: 4; }
+  .aboutus__pic4 {
+    -ms-grid-column: 4;
+    grid-column-start: 4;
+    -ms-grid-column-span: 1;
+    grid-column-end: 5; }
+
+.latestworks__menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 15px;
+  font-family: 'RobotoSlab';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400; }
+
+.latestworks__menu ul li a {
+  color: #555555; }
+
+.latestworks__pictures {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+  grid-template-columns: repeat(3, auto);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 100px; }
+
+.latestworks__wide {
+  background: url("/img/LW_wide.png") 50%/cover no-repeat;
+  height: 369px; }
+
+.latestworks__latestwork__wide-opacity {
+  background: url("/img/LW_wideRed.png") left no-repeat; }
+
+.latestworks__text {
+  padding-top: 99px;
+  text-align: center;
+  max-width: 464px;
+  margin: 0 auto;
+  font-family: 'RobotoSlab';
+  font-size: 30px;
+  line-height: 44px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-bottom: 53px; }
+
+.latestworks__button {
+  width: 180px;
+  height: 50px;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 10px 0 0 23px; }
+
+.latestworks__button a {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase; }
