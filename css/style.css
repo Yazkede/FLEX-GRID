@@ -351,11 +351,11 @@ body {
   padding-bottom: 100px; }
 
 .latestworks__wide {
-  background: url("/img/LW_wide.png") 50%/cover no-repeat;
+  background: url("../img/LW_wide.png") 50%/cover no-repeat;
   height: 369px; }
 
 .latestworks__latestwork__wide-opacity {
-  background: url("/img/LW_wideRed.png") left no-repeat; }
+  background: url("../img/LW_wideRed.png") left no-repeat; }
 
 .latestworks__text {
   padding-top: 99px;
