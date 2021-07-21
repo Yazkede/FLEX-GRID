@@ -990,3 +990,100 @@ body {
 
 .slider__item img {
   max-width: 100%; }
+
+.git__structure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.git__contacts {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 33.333%;
+  flex: 0 1 33.333%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+  grid-template-columns: repeat(1, 1fr);
+  -ms-grid-rows: (1fr)[6];
+  grid-template-rows: repeat(6, 1fr); }
+
+.git__email {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column-span: 2;
+  grid-column-end: 5;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2; }
+
+.git__form {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 66.667%;
+  flex: 0 1 66.667%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: 44px, 44px, 104px, 44px;
+  grid-template-rows: 44px, 44px, 104px, 44px; }
+
+.git__name {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column-span: 2;
+  grid-column-end: 3;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2; }
+
+.git__subject {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: 3;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3; }
+
+.git__company {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: 5;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3; }
+
+.git__notice {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row: 3;
+  grid-row-start: 3;
+  -ms-grid-column-span: 4;
+  grid-column-end: 5;
+  -ms-grid-row-span: 1;
+  grid-row-end: 4; }
+
+.git__btn {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row: 4;
+  grid-row-start: 4;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 5; }
+
+.git__comment {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row: 4;
+  grid-row-start: 4;
+  -ms-grid-column-span: 3;
+  grid-column-end: 5;
+  -ms-grid-row-span: 1;
+  grid-row-end: 5; }
