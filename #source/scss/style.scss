@@ -660,6 +660,7 @@ body{
 }
 
 .git {
+    margin-bottom: 100px;
     
     &__titleblock {
     }
@@ -681,12 +682,13 @@ body{
     &__contacts {
         
         flex: 0 1 33.333%;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        display: flex;
+        flex-direction: column;
+        
     }
 
-    &__contact-block {        
+    &__contact-block {
+        margin-left: 150px;
     }
 
     &__contact-block-title {
@@ -694,79 +696,151 @@ body{
     }
 
     &__contact-block-logo {
+        margin-top: 7px;
     }
 
     &__contact-block-subtitle {
+        padding-left: 15px;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #555555;
+        margin-bottom: 15px;
     }
 
     &__contact-block-text {
+        font-family: 'Roboto Slab';
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #555555;
+        margin-bottom: 35px;
+        padding-left: 25px;
     }
 
     &__form {
-        border: 1px solid #000;
         flex: 0 1 66.667%;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 44px, 44px, 104px, 44px;
+        grid-template-rows: 4;
+        
     }
 
     &__name {
-        border: 1px solid #000;
+        border: 1px solid #555555;
         grid-column-start: 1;
         grid-row-start: 1;
         grid-column-end: 3;
         grid-row-end: 2;
+        margin: 0 30px 20px 0;
+        padding-left: 10px;
     }
 
-    &__subject {
-        border: 1px solid #000;
-        grid-column-start: 1;
-        grid-row-start: 2;
-        grid-column-end: 3;
-        grid-row-end: 3;
+    &__name:focus{
+        border: 1px solid #c0301c;
     }
 
     &__mail{
-        border: 1px solid #000;
+        border: 1px solid #555555;
         grid-column-start: 3;
         grid-row-start: 1;
         grid-column-end: 5;
         grid-row-end: 2;
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
+
+    &__mail:focus{
+        border: 1px solid #c0301c;
+    }
+
+    &__subject {
+        border: 1px solid #555555;
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-column-end: 3;
+        grid-row-end: 3;
+        margin: 0 30px 20px 0;
+        padding-left: 10px;
+    }   
+
+    &__subject:focus{
+        border: 1px solid #c0301c;
     }
 
     &__company {
-        border: 1px solid #000;
+        border: 1px solid #555555;
         grid-column-start: 3;
         grid-row-start: 2;
         grid-column-end: 5;
         grid-row-end: 3;
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
+
+    &__company:focus{
+        border: 1px solid #c0301c;
     }
 
     &__notice {
-        border: 1px solid #000;
+        border: 1px solid #555555;
         grid-column-start: 1;
         grid-row-start: 3;
         grid-column-end: 5;
         grid-row-end: 4;
+        margin-bottom: 20px;
+        height: 104px;
+        padding: 10px 0 0 10px;
+    }
+
+    &__notice:focus{
+        border: 1px solid #c0301c;
     }
 
     &__btn{
-        border: 1px solid #000;
+        border: 1px solid #555555;
         grid-column-start: 1;
         grid-row-start: 4;
         grid-column-end: 2;
         grid-row-end: 5;
+        margin: 0 38px 0 0;
+        font-family: 'Roboto Slab';
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #555555;
+    }
+
+    &__btn:focus{
+        border: 1px solid #c0301c;
+        color: #c0301c;
     }
 
     &__comment {
-        border: 1px solid #000;
+        font-family: 'RobotoSlab';
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #555555;;
         grid-column-start: 2;
         grid-row-start: 4;
         grid-column-end: 5;
         grid-row-end: 5;
+        padding-top: 20px;
+    }
+
+    &__comment span{
+        color: #c0301c;
     }
 }
 .footer {
+    width: 1600px;
+    height: 307px;
+    background-color: #c0301c;
 
     &__icons {
     }
