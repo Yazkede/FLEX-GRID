@@ -660,7 +660,8 @@ body{
 }
 
 .git {
-    margin-bottom: 100px;
+    max-width: 1125px;
+    margin: 0 auto 100px;
     
     &__titleblock {
     }
@@ -688,7 +689,6 @@ body{
     }
 
     &__contact-block {
-        margin-left: 150px;
     }
 
     &__contact-block-title {
@@ -707,7 +707,7 @@ body{
         font-weight: 700;
         text-transform: uppercase;
         color: #555555;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 
     &__contact-block-text {
@@ -716,7 +716,7 @@ body{
         line-height: 20px;
         font-weight: 700;
         color: #555555;
-        margin-bottom: 35px;
+        margin-bottom: 30px;
         padding-left: 25px;
     }
 
@@ -740,6 +740,7 @@ body{
 
     &__name:focus{
         border: 1px solid #c0301c;
+        box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c;
     }
 
     &__mail{
@@ -754,6 +755,7 @@ body{
 
     &__mail:focus{
         border: 1px solid #c0301c;
+        box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c;
     }
 
     &__subject {
@@ -768,6 +770,7 @@ body{
 
     &__subject:focus{
         border: 1px solid #c0301c;
+        box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c;
     }
 
     &__company {
@@ -782,6 +785,7 @@ body{
 
     &__company:focus{
         border: 1px solid #c0301c;
+        box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c;
     }
 
     &__notice {
@@ -797,6 +801,7 @@ body{
 
     &__notice:focus{
         border: 1px solid #c0301c;
+        box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c;
     }
 
     &__btn{
@@ -813,11 +818,19 @@ body{
         text-transform: uppercase;
         letter-spacing: 0.05em;
         color: #555555;
+        height: 44px;
     }
 
     &__btn:focus{
         border: 1px solid #c0301c;
+        box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c;
         color: #c0301c;
+    }
+
+    &__btn:hover{
+        background-color: rgb(143, 69, 69);
+        color:blanchedalmond;
+        transition-duration: 500ms;
     }
 
     &__comment {
@@ -830,7 +843,7 @@ body{
         grid-row-start: 4;
         grid-column-end: 5;
         grid-row-end: 5;
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     &__comment span{
@@ -842,13 +855,40 @@ body{
     height: 307px;
     background-color: #c0301c;
 
-    &__icons {
+    &__icons ul{
+        display: flex;
+        justify-content: center;
+        
     }
 
+    &__icons ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 10px 30px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        
+    }
+    
+
     &__line {
+        width: 50px;
+        height: 2px;
+        background-color: #fff;
+        margin: 0 auto 25px;
     }
 
     &__text {
+        font-family: 'RobotoSlab';
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
     }
 }
 

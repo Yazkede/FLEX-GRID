@@ -992,7 +992,8 @@ body {
   max-width: 100%; }
 
 .git {
-  margin-bottom: 100px; }
+  max-width: 1125px;
+  margin: 0 auto 100px; }
   .git__structure {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1008,8 +1009,6 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column; }
-  .git__contact-block {
-    margin-left: 150px; }
   .git__contact-block-title {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1024,14 +1023,14 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     color: #555555;
-    margin-bottom: 15px; }
+    margin-bottom: 10px; }
   .git__contact-block-text {
     font-family: 'Roboto Slab';
     font-size: 12px;
     line-height: 20px;
     font-weight: 700;
     color: #555555;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     padding-left: 25px; }
   .git__form {
     -webkit-box-flex: 0;
@@ -1056,7 +1055,9 @@ body {
     margin: 0 30px 20px 0;
     padding-left: 10px; }
   .git__name:focus {
-    border: 1px solid #c0301c; }
+    border: 1px solid #c0301c;
+    -webkit-box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c;
+    box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c; }
   .git__mail {
     border: 1px solid #555555;
     -ms-grid-column: 3;
@@ -1070,7 +1071,9 @@ body {
     margin-bottom: 20px;
     padding-left: 10px; }
   .git__mail:focus {
-    border: 1px solid #c0301c; }
+    border: 1px solid #c0301c;
+    -webkit-box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c;
+    box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c; }
   .git__subject {
     border: 1px solid #555555;
     -ms-grid-column: 1;
@@ -1084,7 +1087,9 @@ body {
     margin: 0 30px 20px 0;
     padding-left: 10px; }
   .git__subject:focus {
-    border: 1px solid #c0301c; }
+    border: 1px solid #c0301c;
+    -webkit-box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c;
+    box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c; }
   .git__company {
     border: 1px solid #555555;
     -ms-grid-column: 3;
@@ -1098,7 +1103,9 @@ body {
     margin-bottom: 20px;
     padding-left: 10px; }
   .git__company:focus {
-    border: 1px solid #c0301c; }
+    border: 1px solid #c0301c;
+    -webkit-box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c;
+    box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c; }
   .git__notice {
     border: 1px solid #555555;
     -ms-grid-column: 1;
@@ -1113,7 +1120,9 @@ body {
     height: 104px;
     padding: 10px 0 0 10px; }
   .git__notice:focus {
-    border: 1px solid #c0301c; }
+    border: 1px solid #c0301c;
+    -webkit-box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c;
+    box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c; }
   .git__btn {
     border: 1px solid #555555;
     -ms-grid-column: 1;
@@ -1131,10 +1140,19 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #555555; }
+    color: #555555;
+    height: 44px; }
   .git__btn:focus {
     border: 1px solid #c0301c;
+    -webkit-box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c;
+    box-shadow: 1px 1px 3px #c0301c, inset 1px 1px 3px #c0301c;
     color: #c0301c; }
+  .git__btn:hover {
+    background-color: #8f4545;
+    color: blanchedalmond;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms; }
   .git__comment {
     font-family: 'RobotoSlab';
     font-size: 12px;
@@ -1149,7 +1167,7 @@ body {
     grid-column-end: 5;
     -ms-grid-row-span: 1;
     grid-row-end: 5;
-    padding-top: 20px; }
+    padding-top: 10px; }
   .git__comment span {
     color: #c0301c; }
 
@@ -1157,3 +1175,38 @@ body {
   width: 1600px;
   height: 307px;
   background-color: #c0301c; }
+  .footer__icons ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .footer__icons ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 100px 10px 30px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #fff; }
+  .footer__line {
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 auto 25px; }
+  .footer__text {
+    font-family: 'RobotoSlab';
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center; }
