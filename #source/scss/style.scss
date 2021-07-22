@@ -679,53 +679,31 @@ body{
     }
 
     &__contacts {
+        
         flex: 0 1 33.333%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(6, 1fr);
     }
 
-    &__address {
+    &__contact-block {        
     }
 
-    &__address-logo {
+    &__contact-block-title {
+        display: flex;
     }
 
-    &__address-title {
+    &__contact-block-logo {
     }
 
-    &__address-text {
+    &__contact-block-subtitle {
     }
 
-    &__hotline {
-    }
-
-    &__hotline-logo {
-    }
-
-    &__hotline-title {
-    }
-
-    &__hotline-text {
-    }
-
-    &__email {
-        grid-column-start: 3;
-        grid-row-start: 1;
-        grid-column-end: 5;
-        grid-row-end: 2;
-    }
-
-    &__email-logo {
-    }
-
-    &__email-title {
-    }
-
-    &__email-text {
+    &__contact-block-text {
     }
 
     &__form {
+        border: 1px solid #000;
         flex: 0 1 66.667%;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -733,6 +711,7 @@ body{
     }
 
     &__name {
+        border: 1px solid #000;
         grid-column-start: 1;
         grid-row-start: 1;
         grid-column-end: 3;
@@ -740,13 +719,23 @@ body{
     }
 
     &__subject {
+        border: 1px solid #000;
         grid-column-start: 1;
         grid-row-start: 2;
         grid-column-end: 3;
         grid-row-end: 3;
     }
 
+    &__mail{
+        border: 1px solid #000;
+        grid-column-start: 3;
+        grid-row-start: 1;
+        grid-column-end: 5;
+        grid-row-end: 2;
+    }
+
     &__company {
+        border: 1px solid #000;
         grid-column-start: 3;
         grid-row-start: 2;
         grid-column-end: 5;
@@ -754,6 +743,7 @@ body{
     }
 
     &__notice {
+        border: 1px solid #000;
         grid-column-start: 1;
         grid-row-start: 3;
         grid-column-end: 5;
@@ -761,6 +751,7 @@ body{
     }
 
     &__btn{
+        border: 1px solid #000;
         grid-column-start: 1;
         grid-row-start: 4;
         grid-column-end: 2;
@@ -768,6 +759,7 @@ body{
     }
 
     &__comment {
+        border: 1px solid #000;
         grid-column-start: 2;
         grid-row-start: 4;
         grid-column-end: 5;

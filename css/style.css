@@ -1007,17 +1007,13 @@ body {
   -ms-grid-rows: (1fr)[6];
   grid-template-rows: repeat(6, 1fr); }
 
-.git__email {
-  -ms-grid-column: 3;
-  grid-column-start: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-column-span: 2;
-  grid-column-end: 5;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2; }
+.git__contact-block-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 .git__form {
+  border: 1px solid #000;
   -webkit-box-flex: 0;
   -ms-flex: 0 1 66.667%;
   flex: 0 1 66.667%;
@@ -1029,6 +1025,7 @@ body {
   grid-template-rows: 44px, 44px, 104px, 44px; }
 
 .git__name {
+  border: 1px solid #000;
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-row: 1;
@@ -1039,6 +1036,7 @@ body {
   grid-row-end: 2; }
 
 .git__subject {
+  border: 1px solid #000;
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-row: 2;
@@ -1048,7 +1046,19 @@ body {
   -ms-grid-row-span: 1;
   grid-row-end: 3; }
 
+.git__mail {
+  border: 1px solid #000;
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column-span: 2;
+  grid-column-end: 5;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2; }
+
 .git__company {
+  border: 1px solid #000;
   -ms-grid-column: 3;
   grid-column-start: 3;
   -ms-grid-row: 2;
@@ -1059,6 +1069,7 @@ body {
   grid-row-end: 3; }
 
 .git__notice {
+  border: 1px solid #000;
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-row: 3;
@@ -1069,6 +1080,7 @@ body {
   grid-row-end: 4; }
 
 .git__btn {
+  border: 1px solid #000;
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-row: 4;
@@ -1079,6 +1091,7 @@ body {
   grid-row-end: 5; }
 
 .git__comment {
+  border: 1px solid #000;
   -ms-grid-column: 2;
   grid-column-start: 2;
   -ms-grid-row: 4;
