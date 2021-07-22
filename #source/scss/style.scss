@@ -677,11 +677,10 @@ body{
 
     &__structure{
         display: flex;
-        
+        justify-content: space-around;
     }
 
     &__contacts {
-        
         flex: 0 1 33.333%;
         display: flex;
         flex-direction: column;
@@ -848,6 +847,7 @@ body{
 
     &__comment span{
         color: #c0301c;
+        padding-right: 3px;
     }
 }
 .footer {
@@ -862,17 +862,18 @@ body{
     }
 
     &__icons ul li{
+        margin: 100px 10px 30px;        
+        border-radius: 50%;
+        border: 1px solid #fff;        
+    }    
+
+    &__icons ul li a{
+        width: 35px;
+        height: 35px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 100px 10px 30px;
-        width: 35px;
-        height: 35px;
-        border-radius: 50%;
-        border: 1px solid #fff;
-        
     }
-    
 
     &__line {
         width: 50px;
