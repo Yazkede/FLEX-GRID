@@ -58,6 +58,8 @@ body{
     &__logo {
         padding: 45px 0 0 0;
         font-size: 24px;
+        position: relative;
+        z-index: 3;
     }
 
     &__logo a{  
@@ -187,6 +189,7 @@ body{
         text-align: center;
     }
 }
+
 .title-block {
     text-align: center;
     margin: 100px 0 70px 0;
@@ -215,6 +218,7 @@ body{
         color: #555555;
     }
 }
+
 .aboutus {
     height: 852px;
     background-color: #f8f8f8;
@@ -620,6 +624,7 @@ body{
 	font-size: 0;
 	width: 30px;
 	height: 60px;
+    visibility: hidden;
 }
 .slider .slick-arrow.slick-prev{
 }
@@ -894,5 +899,47 @@ body{
     }
 }
 
+//адаптив============================================
 
+@media (max-width: 767px){
+    .header__burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+    }
+    .header__burger:before,
+    .header__burger:after{
+        content: ' ';
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+    }
+    .header__burger span {
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+    }
+    .header__burger:before{
+        top: 0;
+    }
+    .header__burger.header__burger:after{
+        bottom:0%;
+    }
+
+    .header__menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(104, 219, 110);
+        color:black;
+    }
+}
 
