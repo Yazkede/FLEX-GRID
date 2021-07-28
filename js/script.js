@@ -1,4 +1,13 @@
 $(document).ready(function () {
+    $('.header__burger').click(function () {
+        $('.header__burger, .header__menu, .header__center-block').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+
+    $('.header__menu').click(function () {
+        $('.header__burger, .header__menu, .header__center-block').removeClass('active');
+        $('body').removeClass('lock');
+    });
 
     $('.slider').slick({
         arrows: true,
