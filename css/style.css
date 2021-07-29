@@ -1339,4 +1339,14 @@ body {
     margin-top: 80%;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
+    transition: all 0.5s; }
+  .header__title {
+    opacity: 1;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+  .header__title.active {
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
     transition: all 0.5s; } }
