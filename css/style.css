@@ -1333,3 +1333,10 @@ body {
     padding: 0 20px; }
   .services__column-text {
     text-align: start; } }
+
+@media (max-width: 690px) {
+  .header__center-block.active {
+    margin-top: 80%;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; } }
