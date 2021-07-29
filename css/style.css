@@ -608,8 +608,7 @@ body {
   .aboutus__content {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[4];
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     -ms-grid-rows: 110px 250px;
     grid-template-rows: 110px 250px;
     -webkit-box-pack: center;
@@ -624,9 +623,8 @@ body {
     font-weight: 400;
     color: #555555;
     -ms-grid-column: 1;
-    grid-column-start: 1;
     -ms-grid-column-span: 2;
-    grid-column-end: 3; }
+    grid-column: 1/3; }
   .aboutus__text2 {
     max-width: 553px;
     font-family: 'RobotoSlab';
@@ -642,7 +640,10 @@ body {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-column-span: 1;
-    grid-column-end: 2; }
+    grid-column-end: 2;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 0 0 50% 0; }
   .aboutus__name {
     font-family: 'Montserrat';
     font-size: 14px;
@@ -664,17 +665,26 @@ body {
     -ms-grid-column: 2;
     grid-column-start: 2;
     -ms-grid-column-span: 1;
-    grid-column-end: 3; }
+    grid-column-end: 3;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 0 0 50% 0; }
   .aboutus__pic3 {
     -ms-grid-column: 3;
     grid-column-start: 3;
     -ms-grid-column-span: 1;
-    grid-column-end: 4; }
+    grid-column-end: 4;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 0 0 50% 0; }
   .aboutus__pic4 {
     -ms-grid-column: 4;
     grid-column-start: 4;
     -ms-grid-column-span: 1;
-    grid-column-end: 5; }
+    grid-column-end: 5;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 0 0 50% 0; }
 
 .latestworks__menu ul {
   display: -webkit-box;
@@ -1291,6 +1301,8 @@ body {
     padding: 0 30px; }
   .header__logo {
     top: -20px; }
+  .header__title {
+    line-height: 44px; }
   .header__burger.active:before {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -1314,4 +1326,10 @@ body {
     margin-top: 60%;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
-    transition: all 0.5s; } }
+    transition: all 0.5s; }
+  .services__columns {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    padding: 0 20px; }
+  .services__column-text {
+    text-align: start; } }
