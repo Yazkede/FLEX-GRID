@@ -601,49 +601,54 @@ body {
     color: #555555; }
 
 .aboutus {
-  height: 852px;
+  margin: 100px auto 0;
+  padding: 1px 0 100px;
+  max-height: 100%;
   background-color: #f8f8f8; }
-  .aboutus__about {
-    padding-top: 99px; }
   .aboutus__content {
     display: -ms-grid;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    -ms-grid-rows: 110px 250px;
-    grid-template-rows: 110px 250px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 10px; }
+  .aboutus__content-blocks {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; }
+  .aboutus__block1, .aboutus__block2 {
+    max-width: 553px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    -ms-grid-rows: 1fr 2.4fr;
+    grid-template-rows: 1fr 2.4fr;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     gap: 32px; }
-  .aboutus__text1 {
-    max-width: 553px;
+  .aboutus__block1 {
+    margin-right: 29px; }
+  .aboutus__text {
+    -ms-grid-column-span: 2;
+    grid-column: span 2;
     font-family: 'RobotoSlab';
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
-    color: #555555;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-column: 1/3; }
-  .aboutus__text2 {
-    max-width: 553px;
-    font-family: 'RobotoSlab';
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #555555;
-    -ms-grid-column: 3;
-    grid-column-start: 3;
-    -ms-grid-column-span: 2;
-    grid-column-end: 5; }
-  .aboutus__pic1 {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: 2;
+    color: #555555; }
+  .aboutus__pic {
+    position: relative;
+    padding: 0 0 85% 0; }
+  .aboutus__pic img {
     -o-object-fit: cover;
     object-fit: cover;
-    padding: 0 0 50% 0; }
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
   .aboutus__name {
     font-family: 'Montserrat';
     font-size: 14px;
@@ -652,7 +657,12 @@ body {
     text-transform: uppercase;
     color: #555555;
     text-align: center;
-    margin: 20px 0 15px 0; }
+    margin: 20px 0 15px 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%; }
   .aboutus__work {
     font-family: 'RobotoSlab';
     font-size: 13px;
@@ -660,31 +670,11 @@ body {
     font-weight: 400;
     color: #555555;
     text-align: center;
-    margin-bottom: 99px; }
-  .aboutus__pic2 {
-    -ms-grid-column: 2;
-    grid-column-start: 2;
-    -ms-grid-column-span: 1;
-    grid-column-end: 3;
-    -o-object-fit: cover;
-    object-fit: cover;
-    padding: 0 0 50% 0; }
-  .aboutus__pic3 {
-    -ms-grid-column: 3;
-    grid-column-start: 3;
-    -ms-grid-column-span: 1;
-    grid-column-end: 4;
-    -o-object-fit: cover;
-    object-fit: cover;
-    padding: 0 0 50% 0; }
-  .aboutus__pic4 {
-    -ms-grid-column: 4;
-    grid-column-start: 4;
-    -ms-grid-column-span: 1;
-    grid-column-end: 5;
-    -o-object-fit: cover;
-    object-fit: cover;
-    padding: 0 0 50% 0; }
+    position: absolute;
+    top: 115%;
+    left: 0;
+    height: 100%;
+    width: 100%; }
 
 .latestworks__menu ul {
   display: -webkit-box;
@@ -1346,14 +1336,7 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    min-width: 300px; } }
-
-@media (max-width: 690px) {
-  .header__center-block.active {
-    margin-top: 80%;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s; }
+    min-width: 300px; }
   .header__title {
     opacity: 1;
     -webkit-transition: all 0.5s;
@@ -1364,3 +1347,12 @@ body {
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s; } }
+
+@media (max-width: 992px) {
+  .aboutus__content-blocks {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr; }
+  .aboutus__block1 {
+    margin-bottom: 100px; } }
