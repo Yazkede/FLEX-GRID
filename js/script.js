@@ -1,11 +1,11 @@
 $(document).ready(function () {
     $('.header__burger').click(function () {
-        $('.header__burger, .header__menu, .header__center-block, .header__title').toggleClass('active');
+        $('.header__burger, .header__menu, .header__center-block, .header__title, .header__subtitle').toggleClass('active');
         $('body').toggleClass('lock');
     });
 
     $('.header__menu').click(function () {
-        $('.header__burger, .header__menu, .header__center-block, .header__title').removeClass('active');
+        $('.header__burger, .header__menu, .header__center-block, .header__title, .header__subtitle').removeClass('active');
         $('body').removeClass('lock');
     });
 

@@ -999,11 +999,13 @@ body{
         flex-direction: column;
         min-width: 300px;
     }
-    .header__title {
+    .header__title,
+    .header__subtitle {
         opacity: 1;
         transition: all 0.5s;
     }
-    .header__title.active {
+    .header__title.active,
+    .header__subtitle.active {
         opacity: 0;
         transition: all 0.5s;
     }
