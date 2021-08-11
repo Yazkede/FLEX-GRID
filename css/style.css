@@ -945,7 +945,30 @@ body {
     font-size: 12px; }
   .git__structure {
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .git__contacts {
+    padding: 0 15px; }
+  .git__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .git__name {
+    max-width: 300px; }
+  .git__mail {
+    max-width: 300px; }
+  .git__subject {
+    max-width: 300px; }
+  .git__company {
+    max-width: 300px; }
+  .git__notice {
+    max-width: 300px; } }
 
 @media (max-width: 767px) {
   .header__burger {

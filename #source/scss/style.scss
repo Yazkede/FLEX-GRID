@@ -728,7 +728,6 @@ body{
         flex: 0 1 33.333%;
         display: flex;
         flex-direction: column;
-        
     }
 
     &__contact-block {
@@ -767,8 +766,7 @@ body{
         flex: 0 1 66.667%;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 4;
-        
+        grid-template-rows: 4;        
     }
 
     &__name {
@@ -975,6 +973,31 @@ body{
         &__structure{
             flex-wrap: wrap;
         }
+        &__contacts{
+            padding: 0 15px;
+        }
+        &__form {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__name {
+            max-width: 300px;
+        }
+        &__mail{
+            max-width: 300px;
+        }
+        &__subject{
+            max-width: 300px;
+        }
+        &__company{
+            max-width: 300px;
+        }
+        &__notice{
+            max-width: 300px;
+        }
+
     }
 }
 
