@@ -435,8 +435,7 @@ body{
     &__line {
     }
 
-    &__posts {
-        
+    &__posts {        
     }
 
     &__post1 {
@@ -444,6 +443,7 @@ body{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin: 0 auto 39px;
+        padding: 0 15px;
     }
 
     &__picture {
@@ -547,10 +547,11 @@ body{
     }
 
     &__post2 {
-        width: 1140px;
+        max-width: 1140px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin: 0 auto 100px;
+        padding: 0 15px;
     }
 
     &__post2 .blog__titlein {
@@ -704,6 +705,7 @@ body{
 .git {
     max-width: 1125px;
     margin: 0 auto 100px;
+    padding: 0 15px;
     
     &__titleblock {
     }
@@ -893,9 +895,10 @@ body{
     }
 }
 .footer {
-    width: 1600px;
+    max-width: 1600px;
     height: 307px;
     background-color: #c0301c;
+    padding: 0 10px;
 
     &__icons ul{
         display: flex;
@@ -952,8 +955,26 @@ body{
             grid-template-rows: auto auto;
             //justify-content: center;
             gap: 12px;
+        }        
+    }
+    .blog {
+        &__titlein {
+            font-size: 14px;
         }
-        
+    
+        &__subtitlein {
+            font-size: 11px;
+            padding-top: 15px;
+        }
+
+        &__text {
+            font-size: 12px;
+        }
+    }
+    .git {
+        &__structure{
+            flex-wrap: wrap;
+        }
     }
 }
 
@@ -1071,10 +1092,14 @@ body{
         opacity: 0;
         transition: all 0.5s;
     }
-    .latestworks__pictures {
-        
-        grid-template-columns: 1fr;
-        
+    .latestworks__pictures {        
+        grid-template-columns: 1fr; 
+    }
+    .git {
+        &__btn{
+            font-size: 11px;
+            padding: 0 5px;
+        }
     }
 }
 
@@ -1088,6 +1113,25 @@ body{
         &__block1{
             margin-bottom: 100px;
         }
+    }
+    .blog {
+        &__post1,
+        &__post2 {
+        grid-template-columns: auto;
+        max-width: 480px;
+        }
+        &__picture {
+            margin-bottom: 30px;
+            position: relative;
+        }
+        &__picture img {
+            position: relative;
+            z-index: 5;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        } 
+        
     }
 }
 

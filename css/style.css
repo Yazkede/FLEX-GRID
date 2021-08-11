@@ -448,7 +448,8 @@ body {
   display: grid;
   -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
-  margin: 0 auto 39px; }
+  margin: 0 auto 39px;
+  padding: 0 15px; }
 
 .blog__picture {
   margin: 0 auto; }
@@ -564,12 +565,13 @@ body {
   color: #c0301c; }
 
 .blog__post2 {
-  width: 1140px;
+  max-width: 1140px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
-  margin: 0 auto 100px; }
+  margin: 0 auto 100px;
+  padding: 0 15px; }
 
 .blog__post2 .blog__titlein {
   color: #555555; }
@@ -696,7 +698,8 @@ body {
 
 .git {
   max-width: 1125px;
-  margin: 0 auto 100px; }
+  margin: 0 auto 100px;
+  padding: 0 15px; }
   .git__structure {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -878,9 +881,10 @@ body {
     padding-right: 3px; }
 
 .footer {
-  width: 1600px;
+  max-width: 1600px;
   height: 307px;
-  background-color: #c0301c; }
+  background-color: #c0301c;
+  padding: 0 10px; }
   .footer__icons ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -931,7 +935,17 @@ body {
     grid-template-columns: auto;
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
-    gap: 12px; } }
+    gap: 12px; }
+  .blog__titlein {
+    font-size: 14px; }
+  .blog__subtitlein {
+    font-size: 11px;
+    padding-top: 15px; }
+  .blog__text {
+    font-size: 12px; }
+  .git__structure {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; } }
 
 @media (max-width: 767px) {
   .header__burger {
@@ -1066,7 +1080,10 @@ body {
     transition: all 0.5s; }
   .latestworks__pictures {
     -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .git__btn {
+    font-size: 11px;
+    padding: 0 5px; } }
 
 @media (max-width: 992px) {
   .aboutus__content-blocks {
@@ -1075,4 +1092,18 @@ body {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr; }
   .aboutus__block1 {
-    margin-bottom: 100px; } }
+    margin-bottom: 100px; }
+  .blog__post1, .blog__post2 {
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+    max-width: 480px; }
+  .blog__picture {
+    margin-bottom: 30px;
+    position: relative; }
+  .blog__picture img {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain; } }
